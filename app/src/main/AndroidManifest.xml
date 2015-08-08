@@ -15,6 +15,7 @@
 
     <application
         android:allowBackup="true"
+        android:name=".NYTApplication"
         android:icon="@mipmap/ic_launcher"
         android:label="@string/app_name"
         android:theme="@style/AppTheme" >
@@ -26,8 +27,9 @@
             android:value="@string/google_maps_key" />
 
         <activity
-            android:name=".MapsActivity"
-            android:label="@string/title_activity_maps" >
+            android:name=".MainActivity"
+            android:theme="@style/Theme.AppCompat.Light"
+            android:label="@string/title_activity_main" >
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
@@ -35,8 +37,8 @@
             </intent-filter>
         </activity>
         <activity
-            android:name=".MainActivity"
-            android:label="@string/title_activity_main" >
+            android:name=".MapsActivity"
+            android:label="@string/title_activity_maps" >
         </activity>
     </application>
 

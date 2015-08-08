@@ -13,6 +13,6 @@ https://console.developers.google.com/flows/enableapi?apiid=maps_android_backend
     string in this file.
     -->
     <string name="google_maps_key" translatable="false" templateMergeStrategy="preserve">
-        AIzaSyDmp1UnJdx3Hc8CwN7mB3mPCbXJaHx3nbs
+        AIzaSyDhb-vU8YYI5lK3HypCaS5F8OBa8j8cBIo
     </string>
 </resources>
